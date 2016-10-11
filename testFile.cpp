@@ -40,6 +40,11 @@ const int dc[] = {0, 1, 1, 1, 0, -1, -1, -1};
 
 using namespace std;
 
-int main(int argc, const char *argv[]) { return 0; }
+int main(int argc, const char *argv[]) {
+
+  //time to code
+  return 0;
+
+}
 
 // @END_OF_SOURCE_CODE
