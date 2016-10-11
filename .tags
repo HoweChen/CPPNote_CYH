@@ -1,0 +1,27 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	0	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Inf	/Users/howechen/GitHub/CPPNote_CYH/ACM-Template.cpp	/^#define Inf /;"	macro	line:20	file:
+Pi	/Users/howechen/GitHub/CPPNote_CYH/ACM-Template.cpp	/^#define Pi /;"	macro	line:21	file:
+N	/Users/howechen/GitHub/CPPNote_CYH/ACM-Template.cpp	/^#define N /;"	macro	line:22	file:
+LL	/Users/howechen/GitHub/CPPNote_CYH/ACM-Template.cpp	/^#define LL /;"	macro	line:23	file:
+Power	/Users/howechen/GitHub/CPPNote_CYH/ACM-Template.cpp	/^inline LL Power(int b, int p) {$/;"	function	line:25	signature:(int b, int p)
+dr	/Users/howechen/GitHub/CPPNote_CYH/ACM-Template.cpp	/^const int dr[] = {-1, -1, 0, 1, 1, 1, 0, -1};$/;"	variable	line:31
+dc	/Users/howechen/GitHub/CPPNote_CYH/ACM-Template.cpp	/^const int dc[] = {0, 1, 1, 1, 0, -1, -1, -1};$/;"	variable	line:32
+F	/Users/howechen/GitHub/CPPNote_CYH/ACM-Template.cpp	/^#define F(/;"	macro	line:34	file:
+Fs	/Users/howechen/GitHub/CPPNote_CYH/ACM-Template.cpp	/^#define Fs(/;"	macro	line:35	file:
+Fe	/Users/howechen/GitHub/CPPNote_CYH/ACM-Template.cpp	/^#define Fe(/;"	macro	line:36	file:
+Set	/Users/howechen/GitHub/CPPNote_CYH/ACM-Template.cpp	/^#define Set(/;"	macro	line:37	file:
+Max	/Users/howechen/GitHub/CPPNote_CYH/ACM-Template.cpp	/^#define Max(/;"	macro	line:38	file:
+Min	/Users/howechen/GitHub/CPPNote_CYH/ACM-Template.cpp	/^#define Min(/;"	macro	line:39	file:
+main	/Users/howechen/GitHub/CPPNote_CYH/ACM-Template.cpp	/^int main(int argc, const char *argv[]) {$/;"	function	line:43	signature:(int argc, const char *argv[])
+main	/Users/howechen/GitHub/CPPNote_CYH/atoi/main.cpp	/^int main(int argc, char const *argv[]) {$/;"	function	line:14	signature:(int argc, char const *argv[])
+main	/Users/howechen/GitHub/CPPNote_CYH/atol & strtol/main.cpp	/^int main(int argc, char const *argv[]) {$/;"	function	line:16	signature:(int argc, char const *argv[])
+main	/Users/howechen/GitHub/CPPNote_CYH/const char* and char*/main.cpp	/^int main(int argc, char const *argv[]) {$/;"	function	line:14	signature:(int argc, char const *argv[])
+main	/Users/howechen/GitHub/CPPNote_CYH/const char* const the_string/main.cpp	/^int main(int argc, char const *argv[]) {$/;"	function	line:14	signature:(int argc, char const *argv[])
+main	/Users/howechen/GitHub/CPPNote_CYH/const char* to string/main.cpp	/^int main(int argc, char const *argv[]) {$/;"	function	line:14	signature:(int argc, char const *argv[])
+main	/Users/howechen/GitHub/CPPNote_CYH/const char[]/main.cpp	/^int main(int argc, char const *argv[]) {$/;"	function	line:14	signature:(int argc, char const *argv[])
+main	/Users/howechen/GitHub/CPPNote_CYH/getline/main.cpp	/^int main(int argc, char const *argv[]) {$/;"	function	line:14	signature:(int argc, char const *argv[])
