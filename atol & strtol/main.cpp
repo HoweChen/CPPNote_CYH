@@ -57,6 +57,5 @@ int main(int argc, char const *argv[]) {
    else
      printf("Conversion error, non-convertible part: %s", end);
 
-   return 0;
   return 0;
 }
