@@ -5,57 +5,70 @@
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
 F	ACM-Template.cpp	/^#define F(/;"	d	file:
+F	ptr/normal_ptr point to smart_ptr/main.cpp	/^#define F(/;"	d	file:
 F	ptr/smart_ptr/auto_ptr/main.cpp	/^#define F(/;"	d	file:
 F	ptr/smart_ptr/smart_ptr.cpp	/^#define F(/;"	d	file:
 F	string/find/main.cpp	/^#define F(/;"	d	file:
 Fe	ACM-Template.cpp	/^#define Fe(/;"	d	file:
+Fe	ptr/normal_ptr point to smart_ptr/main.cpp	/^#define Fe(/;"	d	file:
 Fe	ptr/smart_ptr/auto_ptr/main.cpp	/^#define Fe(/;"	d	file:
 Fe	ptr/smart_ptr/smart_ptr.cpp	/^#define Fe(/;"	d	file:
 Fe	string/find/main.cpp	/^#define Fe(/;"	d	file:
 Fs	ACM-Template.cpp	/^#define Fs(/;"	d	file:
+Fs	ptr/normal_ptr point to smart_ptr/main.cpp	/^#define Fs(/;"	d	file:
 Fs	ptr/smart_ptr/auto_ptr/main.cpp	/^#define Fs(/;"	d	file:
 Fs	ptr/smart_ptr/smart_ptr.cpp	/^#define Fs(/;"	d	file:
 Fs	string/find/main.cpp	/^#define Fs(/;"	d	file:
 Inf	ACM-Template.cpp	/^#define Inf /;"	d	file:
+Inf	ptr/normal_ptr point to smart_ptr/main.cpp	/^#define Inf /;"	d	file:
 Inf	ptr/smart_ptr/auto_ptr/main.cpp	/^#define Inf /;"	d	file:
 Inf	ptr/smart_ptr/smart_ptr.cpp	/^#define Inf /;"	d	file:
 Inf	string/find/main.cpp	/^#define Inf /;"	d	file:
 LL	ACM-Template.cpp	/^#define LL /;"	d	file:
+LL	ptr/normal_ptr point to smart_ptr/main.cpp	/^#define LL /;"	d	file:
 LL	ptr/smart_ptr/auto_ptr/main.cpp	/^#define LL /;"	d	file:
 LL	ptr/smart_ptr/smart_ptr.cpp	/^#define LL /;"	d	file:
 LL	string/find/main.cpp	/^#define LL /;"	d	file:
 Max	ACM-Template.cpp	/^#define Max(/;"	d	file:
+Max	ptr/normal_ptr point to smart_ptr/main.cpp	/^#define Max(/;"	d	file:
 Max	ptr/smart_ptr/auto_ptr/main.cpp	/^#define Max(/;"	d	file:
 Max	ptr/smart_ptr/smart_ptr.cpp	/^#define Max(/;"	d	file:
 Max	string/find/main.cpp	/^#define Max(/;"	d	file:
 Min	ACM-Template.cpp	/^#define Min(/;"	d	file:
+Min	ptr/normal_ptr point to smart_ptr/main.cpp	/^#define Min(/;"	d	file:
 Min	ptr/smart_ptr/auto_ptr/main.cpp	/^#define Min(/;"	d	file:
 Min	ptr/smart_ptr/smart_ptr.cpp	/^#define Min(/;"	d	file:
 Min	string/find/main.cpp	/^#define Min(/;"	d	file:
 N	ACM-Template.cpp	/^#define N /;"	d	file:
+N	ptr/normal_ptr point to smart_ptr/main.cpp	/^#define N /;"	d	file:
 N	ptr/smart_ptr/auto_ptr/main.cpp	/^#define N /;"	d	file:
 N	ptr/smart_ptr/smart_ptr.cpp	/^#define N /;"	d	file:
 N	string/find/main.cpp	/^#define N /;"	d	file:
 Pi	ACM-Template.cpp	/^#define Pi /;"	d	file:
+Pi	ptr/normal_ptr point to smart_ptr/main.cpp	/^#define Pi /;"	d	file:
 Pi	ptr/smart_ptr/auto_ptr/main.cpp	/^#define Pi /;"	d	file:
 Pi	ptr/smart_ptr/smart_ptr.cpp	/^#define Pi /;"	d	file:
 Pi	string/find/main.cpp	/^#define Pi /;"	d	file:
 Power	ACM-Template.cpp	/^inline LL Power(int b, int p) {$/;"	f
+Power	ptr/normal_ptr point to smart_ptr/main.cpp	/^inline LL Power(int b, int p) {$/;"	f
 Power	ptr/smart_ptr/auto_ptr/main.cpp	/^inline LL Power(int b, int p) {$/;"	f
 Power	ptr/smart_ptr/smart_ptr.cpp	/^inline LL Power(int b, int p) {$/;"	f
 Power	string/find/main.cpp	/^inline LL Power(int b, int p) {$/;"	f
 Report	ptr/smart_ptr/smart_ptr.cpp	/^  Report(const std::string s) : str(s) {$/;"	f	class:Report
 Report	ptr/smart_ptr/smart_ptr.cpp	/^class Report {$/;"	c	file:
 Set	ACM-Template.cpp	/^#define Set(/;"	d	file:
+Set	ptr/normal_ptr point to smart_ptr/main.cpp	/^#define Set(/;"	d	file:
 Set	ptr/smart_ptr/auto_ptr/main.cpp	/^#define Set(/;"	d	file:
 Set	ptr/smart_ptr/smart_ptr.cpp	/^#define Set(/;"	d	file:
 Set	string/find/main.cpp	/^#define Set(/;"	d	file:
 comment	ptr/smart_ptr/smart_ptr.cpp	/^  void comment() const {$/;"	f	class:Report
 dc	ACM-Template.cpp	/^const int dc[] = {0, 1, 1, 1, 0, -1, -1, -1};$/;"	v
+dc	ptr/normal_ptr point to smart_ptr/main.cpp	/^const int dc[] = {0, 1, 1, 1, 0, -1, -1, -1};$/;"	v
 dc	ptr/smart_ptr/auto_ptr/main.cpp	/^const int dc[] = {0, 1, 1, 1, 0, -1, -1, -1};$/;"	v
 dc	ptr/smart_ptr/smart_ptr.cpp	/^const int dc[] = {0, 1, 1, 1, 0, -1, -1, -1};$/;"	v
 dc	string/find/main.cpp	/^const int dc[] = {0, 1, 1, 1, 0, -1, -1, -1};$/;"	v
 dr	ACM-Template.cpp	/^const int dr[] = {-1, -1, 0, 1, 1, 1, 0, -1};$/;"	v
+dr	ptr/normal_ptr point to smart_ptr/main.cpp	/^const int dr[] = {-1, -1, 0, 1, 1, 1, 0, -1};$/;"	v
 dr	ptr/smart_ptr/auto_ptr/main.cpp	/^const int dr[] = {-1, -1, 0, 1, 1, 1, 0, -1};$/;"	v
 dr	ptr/smart_ptr/smart_ptr.cpp	/^const int dr[] = {-1, -1, 0, 1, 1, 1, 0, -1};$/;"	v
 dr	string/find/main.cpp	/^const int dr[] = {-1, -1, 0, 1, 1, 1, 0, -1};$/;"	v
@@ -67,6 +80,7 @@ main	const char* const the_string/main.cpp	/^int main(int argc, char const *argv
 main	const char* to string/main.cpp	/^int main(int argc, char const *argv[]) {$/;"	f
 main	const char[]/main.cpp	/^int main(int argc, char const *argv[]) {$/;"	f
 main	getline/main.cpp	/^int main(int argc, char const *argv[]) {$/;"	f
+main	ptr/normal_ptr point to smart_ptr/main.cpp	/^int main(int argc, const char *argv[]) {$/;"	f
 main	ptr/smart_ptr/auto_ptr/main.cpp	/^int main(int argc, const char *argv[]) {$/;"	f
 main	ptr/smart_ptr/smart_ptr.cpp	/^int main(int argc, const char *argv[]) {$/;"	f
 main	string/find/main.cpp	/^int main(int argc, const char *argv[]) {$/;"	f
