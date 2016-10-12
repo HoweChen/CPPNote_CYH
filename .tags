@@ -72,6 +72,8 @@ dr	ptr/normal_ptr point to smart_ptr/main.cpp	/^const int dr[] = {-1, -1, 0, 1, 
 dr	ptr/smart_ptr/auto_ptr/main.cpp	/^const int dr[] = {-1, -1, 0, 1, 1, 1, 0, -1};$/;"	v
 dr	ptr/smart_ptr/smart_ptr.cpp	/^const int dr[] = {-1, -1, 0, 1, 1, 1, 0, -1};$/;"	v
 dr	string/find/main.cpp	/^const int dr[] = {-1, -1, 0, 1, 1, 1, 0, -1};$/;"	v
+find_occurence_character	ACM-Template.cpp	/^int find_occurence_character(string s, char c) {$/;"	f
+find_occurence_substring	ACM-Template.cpp	/^int find_occurence_substring(string s, string substr) {$/;"	f
 main	ACM-Template.cpp	/^int main(int argc, const char *argv[]) {$/;"	f
 main	atoi/main.cpp	/^int main(int argc, char const *argv[]) {$/;"	f
 main	atol & strtol/main.cpp	/^int main(int argc, char const *argv[]) {$/;"	f
@@ -84,5 +86,6 @@ main	ptr/normal_ptr point to smart_ptr/main.cpp	/^int main(int argc, const char 
 main	ptr/smart_ptr/auto_ptr/main.cpp	/^int main(int argc, const char *argv[]) {$/;"	f
 main	ptr/smart_ptr/smart_ptr.cpp	/^int main(int argc, const char *argv[]) {$/;"	f
 main	string/find/main.cpp	/^int main(int argc, const char *argv[]) {$/;"	f
+replace_substring_to_another_substring	ACM-Template.cpp	/^string replace_substring_to_another_substring(string s, string substr_original, string substr_target) {$/;"	f
 str	ptr/smart_ptr/smart_ptr.cpp	/^  std::string str;$/;"	m	class:Report	file:
 ~Report	ptr/smart_ptr/smart_ptr.cpp	/^  ~Report() {$/;"	f	class:Report
