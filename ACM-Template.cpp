@@ -16,6 +16,7 @@
 #include <string>
 #include <utility>
 #include <vector>
+#include <memory>
 
 #define Inf 2147483647
 #define Pi acos(-1.0)
@@ -44,7 +45,7 @@ int main(int argc, const char *argv[]) {
 
   //time to code
   //
-  
+
   return 0;
 }
 
