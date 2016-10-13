@@ -1,0 +1,31 @@
+Problem 4. Dash and Dot
+
+The year is 1942, and you are a spy nicknamed Sparrow. You are working undercover in Nanjing. Your job is to gather intelligent send it to your headquarter. The message you need to send consists of a sequence of N positive integers in the range from 1 to M (inclusive), and the message will be sent using a radio telegram machine in which each integer is sent as a sequence of dashes and dots. The traditional telegram message includes a “break” (a short silence) between letters/numbers. However, you ﬁnd out that if the breaks are eliminated, the message can be sent in much shorted time and thus reduce the chances of being caught by your enemy.
+
+As a result, a new telegram coding system is created. In this coding system, each number is represented by a code which is still made up by dashes and dots. However, the message is sent out as a continuous stream of dashed and dots without any break in between. In order to make this system work, the coding system also ensures that no one telegram code is a preﬁx of the any other code. For example, if the code for 1 is ‘.-’, then there will not be any other code in the system that starts with ‘.-’.
+
+What is needed now is to program a machine that can translate the continuous stream of dashed and dots received back to a sequence of integers.
+
+Input
+
+The input contains three parts:
+
+• The ﬁrst part consists of one positive integer on a line. The integer is M. (2 ≤ M ≤ 1, 000)
+
+• The second part consist of M lines, each line consist of a combination of dots ‘.’ and dashes ‘-’. They sequentially represent the telegram code for the integer from 1 to M with respectively. The length of each code is less than or equal to 60.
+
+• The last part consists of one line of dashed and dots, which representing the contents of the message. The line ends with a end-of-line. The length of the message (total number of dashes and dots) is at most 1,000,000.
+
+Output
+
+The output should consist of N integers on a single line. These integers represent the sequence of the numbers in the message. There should be one space between each integer and should not have any leading or trailing spaces. The line should end with end-of-line.
+
+Example
+
+Input:
+
+Output:
+
+4 . -- -.. -.- ..-.----..--
+
+1 1 4 2 3 2
