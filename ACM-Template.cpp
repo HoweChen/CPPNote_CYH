@@ -33,8 +33,11 @@ inline LL Power(int b, int p) {
 const int dr[] = {-1, -1, 0, 1, 1, 1, 0, -1};
 const int dc[] = {0, 1, 1, 1, 0, -1, -1, -1};
 
+//  simple for
 #define F(i, a) for (int i = (0); i < (a); i++)
+//  for size
 #define Fs(i, sz) for (size_t i = 0; i < sz.size(); i++)
+//  for i(e)terator
 #define Fe(i, x) for (typeof(x.begin()) i = x.begin(); i != x.end(); i++)
 #define Set(a, s) memset(a, s, sizeof(a))
 #define Max(a, b) (a < b ? b : a)
@@ -51,8 +54,6 @@ string replace_substring_to_another_substring(string s, string substr_original, 
 int main(int argc, const char *argv[]) {
 
   //time to code
-  
-
   return 0;
 }
 
@@ -66,6 +67,7 @@ int find_occurence_substring(string s, string substr) {
 
   return count;
 }
+
 int find_occurence_character(string s, char c) {
   int count = 0;
   Fs(i, s) {
@@ -74,6 +76,7 @@ int find_occurence_character(string s, char c) {
   }
   return count;
 }
+
 string replace_substring_to_another_substring(string s, string substr_original, string substr_target) {
   size_t index = 0;
   while (true) {
