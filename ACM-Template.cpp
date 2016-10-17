@@ -1,4 +1,5 @@
 #include <algorithm>
+#include <array>
 #include <bitset>
 #include <cctype>
 #include <cmath>
@@ -8,17 +9,16 @@
 #include <iostream>
 #include <list>
 #include <map>
+#include <memory>
 #include <numeric>
 #include <queue>
 #include <set>
 #include <sstream>
 #include <stack>
 #include <string>
+#include <typeinfo>
 #include <utility>
 #include <vector>
-#include <memory>
-#include <array>
-#include <typeinfo>
 
 #define Inf 2147483647
 #define Pi acos(-1.0)
@@ -51,11 +51,12 @@ int find_occurence_character(string s, char c);
 
 int find_occurence_substring(string s, string substr);
 
-string replace_substring_to_another_substring(string s, string substr_original, string substr_target);
+string replace_substring_to_another_substring(string s, string substr_original,
+                                              string substr_target);
 
 int main(int argc, const char *argv[]) {
 
-  //time to code
+  // time to code
   return 0;
 }
 
@@ -73,27 +74,31 @@ int find_occurence_substring(string s, string substr) {
 int find_occurence_character(string s, char c) {
   int count = 0;
   Fs(i, s) {
-    if (s[i] == c) ++count;
-    else continue;
+    if (s[i] == c)
+      ++count;
+    else
+      continue;
   }
   return count;
 }
 
-string replace_substring_to_another_substring(string s, string substr_original, string substr_target) {
+string replace_substring_to_another_substring(string s, string substr_original,
+                                              string substr_target) {
   size_t index = 0;
   while (true) {
     /* Locate the substring to replace. */
     index = s.find(substr_original, index);
-    if (index == std::string::npos) break;
+    if (index == std::string::npos)
+      break;
 
     /* Make the replacement. */
     s.replace(index, substr_original.length(), substr_target);
 
-    /* Advance index forward so the next iteration doesn't pick it up as well. */
+    /* Advance index forward so the next iteration doesn't pick it up as well.
+     */
     index += substr_original.length();
   }
   return s;
-
 }
 
 // @END_OF_SOURCE_CODE
