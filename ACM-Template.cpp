@@ -17,6 +17,7 @@
 #include <utility>
 #include <vector>
 #include <memory>
+#include <array>
 
 #define Inf 2147483647
 #define Pi acos(-1.0)
