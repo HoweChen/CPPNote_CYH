@@ -1,0 +1,63 @@
+Given a N 2 chessboard and we use block(r1,c1,r2,c2) to indicate a rectangular sub-region from coordinate (r1,c1) to (r2,c2). In this chessboard, there are some sub-regions are already occupied and your tasks is to find the size of the largest free rectangular sub- region in the chessboard.
+
+For instance, block(2,2,5,3), block(8,3,9,7), and block(3,6,3,8) are already occupied. The size of the largest sub-region is 28 (shaded by the black color in the following figure).
+
+Input
+
+First line: #problem instances
+
+For each instance,
+
+-
+
+-
+
+-
+
+Size of the chessboard
+
+#sub-regions
+
+For each sub-region, we have 4 integers r1 c1 r2 c2
+
+Output
+
+For each instance outputs the size of the largest free rectangular sub-region.
+
+Sample Input
+
+3
+
+10
+
+3
+
+2 2 5 3
+
+8 3 9 7
+
+3 6 3 8
+
+20
+
+1
+
+1 1 1 1
+
+10
+
+2
+
+5 1 5 10
+
+1 5 10 5
+
+Sample Output
+
+28
+
+380
+
+25
+
+2
