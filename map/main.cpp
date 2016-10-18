@@ -46,54 +46,53 @@ int find_occurence_character(string s, char c);
 
 int find_occurence_substring(string s, string substr);
 
-string replace_substring_to_another_substring(string s, string substr_original,
-                                              string substr_target);
+string replace_substring_to_another_substring(string s, string substr_original, string substr_target);
 
-int main(int argc, const char *argv[]) {
+int main() {
 
-  // time to code
+  //time to code
   //
   map<string, int> cheatsheet;
   int M;
   cin >> M;
-  if (M < 2 || M > 1000) {
+  if (M<2 || M>1000) {
     exit(0);
   }
   F(i, M) {
     string input;
     cin >> input;
-    if (input.length() > 60) {
+    if (input.length()>60) {
       exit(0);
     }
     cheatsheet.insert(map<string, int>::value_type(input, i + 1));
   }
   string one_line_code;
-  if (one_line_code.length() > 1000000) {
+  if (one_line_code.length()>1000000) {
     exit(0);
   }
   cin >> one_line_code;
 
   size_t current_flag = 0;
-  size_t temp_flag = current_flag + 1;
+  size_t temp_flag = current_flag+1;
 
   while (true) {
-    string sub_str = one_line_code.substr(current_flag, temp_flag);
-    map<string, int>::iterator search = cheatsheet.find(sub_str);
-    if (search == cheatsheet.end() && temp_flag == one_line_code.length() - 1) {
+    string sub_str =one_line_code.substr(current_flag,temp_flag);
+    map<string,int>::iterator search = cheatsheet.find(sub_str);
+    if (search == cheatsheet.end() && temp_flag == one_line_code.length()-1) {
       break;
     }
 
-    if (search != cheatsheet.end()) {
-      // found
-      cout << search->second << " ";
+    if (search!=cheatsheet.end()) {
+      //found
+      cout<<search->second<<" ";
       current_flag += temp_flag;
       temp_flag = 1;
       continue;
     }
     ++temp_flag;
-    cout << temp << endl;
+
   }
-  cout << endl;
+  cout<<endl;
 
   // okay to use
   //  auto search = cheatsheet.find("-.-");
@@ -117,32 +116,29 @@ int find_occurence_substring(string s, string substr) {
 int find_occurence_character(string s, char c) {
   int count = 0;
   Fs(i, s) {
-    if (s[i] == c)
-      ++count;
-    else
-      continue;
+    if (s[i] == c) ++count;
+    else continue;
   }
   return count;
 }
 
-string replace_substring_to_another_substring(string s, string substr_original,
-                                              string substr_target) {
+string replace_substring_to_another_substring(string s, string substr_original, string substr_target) {
   size_t index = 0;
   while (true) {
     /* Locate the substring to replace. */
     index = s.find(substr_original, index);
-    if (index == std::string::npos)
-      break;
+    if (index == std::string::npos) break;
 
     /* Make the replacement. */
     s.replace(index, substr_original.length(), substr_target);
 
-    /* Advance index forward so the next iteration doesn't pick it up as well.
-     */
+    /* Advance index forward so the next iteration doesn't pick it up as well. */
     index += substr_original.length();
   }
   return s;
+
 }
+
 
 // @END_OF_SOURCE_CODE
 
