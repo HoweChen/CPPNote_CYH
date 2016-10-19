@@ -1,6 +1,7 @@
 
 #include <iostream>
 #include <vector>
+#include <cstdlib>
 
 #define F(i, a) for (int i = (0); i < (a); i++)
 #define Max(a, b) (a < b ? b : a)
@@ -9,24 +10,57 @@ using namespace std;
 int main() {
   int number;
   cin >> number;
+  if (number <= 0) exit(0);
   F(i, number) {
     int size = 0;
     int number_of_block = 0;
     cin >> size;
+    if (size < 1) exit(0);
     vector<vector<int> > chessboard(size, vector<int>(size));
     cin >> number_of_block;
+    if (number_of_block > size * size) exit(0);
     F(block_iterator, number_of_block) {
       int r1, c1, r2, c2 = 0;
       cin >> r1 >> c1 >> r2 >> c2;
-//      if (r1 <= 0 || c1 <= 0 || r2 <= 0 || c2 <= 0) {
-//        exit(0);
-//      }
+      if (r1 <= 0 || r1 > size || c1 <= 0 || c1 > size || r2 <= 0 || r2 > size || c2 <= 0 || c2 > size) {
+        exit(0);
+      }
+      if(r1>=r2 && c1 >=c2){
+        //swap r1 and r2, c1 and c2
+//        r1 = r1^r2;
+//        r2 = r1^r2;
+//        r1 = r1^r2;
+//        c1 = c1^c2;
+//        c2 = c1^c2;
+//        c1 = c1^c2;
+        std::swap(r1,r1);
+        std::swap(c1,c2);
+      }
+
+      if(r1<=r2 && c1>=c2){
+        //only swap c1 and c2
+//        c1 = c1^c2;
+//        c2 = c1^c2;
+//        c1 = c1^c2;
+        std::swap(c1,c2);
+      }
+
+      if(r1>=r2 && c1<=c2){
+        //only swap r1 and r2
+//        r1 = r1^r2;
+//        r2 = r1^r2;
+//        r1 = r1^r2;
+        swap(r1,r2);
+      }
+//      cout<<r1<<c1<<r2<<c2<<endl;
       r1 = r1 - 1;
       c1 = c1 - 1;
       r2 = r2 - 1;
       c2 = c2 - 1;
+
       for (int row = r1; row <= r2; ++row) {
         for (int column = c1; column <= c2; ++column) {
+          if(chessboard[row][column]==-1) continue;
           chessboard[row][column] = -1;
         }
       }
@@ -79,6 +113,7 @@ int main() {
       }
     }
     cout << count << endl;
+
   }
   return 0;
 }
