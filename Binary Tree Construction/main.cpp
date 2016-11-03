@@ -8,16 +8,17 @@ using namespace std;
 
 map<int, unsigned long long int> BinaryTreeMap;
 
-unsigned long long int BTree(int node_number);
+//unsigned long long int BTree(int node_number);
+void BTree(int node_number);
 
 int main() {
   /* code */
   BinaryTreeMap[1] = 1;
   BinaryTreeMap[2] = 2;
   BinaryTreeMap[3] = 5;
-//  for (int i = 4; i <= 100; ++i) {
-//    BTree(i);
-//  }
+  for (int i = 4; i <= 100; ++i) {
+    BTree(i);
+  }
 
 
   int n;
@@ -32,7 +33,13 @@ int main() {
       if (node_number < 1 || node_number > 10000) {
         exit(0);
       } else {
-        result.push_back(BTree(node_number));
+        map<int, unsigned long long int>::iterator search = BinaryTreeMap.find(node_number);
+        if (search != BinaryTreeMap.end()) {
+          result.push_back(search->second);
+        } else{
+          BTree(node_number);
+          result.push_back(BinaryTreeMap.find(node_number)->second);
+        }
       }
     }
 
@@ -47,8 +54,8 @@ int main() {
   return 0;
 }
 
-unsigned long long int BTree(int node_number) {
 
+void BTree(int node_number) {
   //version 2
   for (int i = 4; i <= node_number; ++i) {
     unsigned long long int result = 0;
@@ -76,9 +83,13 @@ unsigned long long int BTree(int node_number) {
     BinaryTreeMap[i] = result;
   }
 
-  return BinaryTreeMap.find(node_number)->second;
+//  return BinaryTreeMap.find(node_number)->second;
+}
 
-  //version 1
+
+//unsigned long long int BTree(int node_number) {
+//
+////  version 1
 //  map<int, unsigned long long int>::iterator search = BinaryTreeMap.find(node_number);
 //  if (search != BinaryTreeMap.end()) {
 //    return search->second;
@@ -108,4 +119,4 @@ unsigned long long int BTree(int node_number) {
 //    BinaryTreeMap[node_number] = result;
 //    return result;
 //  }
-}
+//}
