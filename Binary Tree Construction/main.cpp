@@ -3,10 +3,8 @@
 #include <cmath>
 #include <map>
 #include <vector>
-#include <boost/multiprecision/cpp_int.hpp>
 
 using namespace std;
-namespace mp = boost::multiprecision;
 
 map<int, unsigned long long> BinaryTreeMap;
 
