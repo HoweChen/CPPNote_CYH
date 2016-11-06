@@ -3,9 +3,13 @@
 using namespace std;
 
 int main(int argc, char const *argv[]) {
-  freopen("input.txt", "r", stdin);
-  string test;
-  getline(cin, test, ' ');
-  cout<<test<<endl;
+  /* code */
+
+  freopen("input.txt","r",stdin);
+  int times;
+  cin >> times;
+  for (int i = 1; i <= times; ++i) {
+    cout << i << " Abracadabra" << endl;
+  }
   return 0;
 }
