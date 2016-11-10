@@ -48,3 +48,9 @@ int main(int argc, char const *argv[]) {
 }
 
 // change the content of what iterator point to, add &
+
+// attr(optional) for ( range_declaration : range_expression ) loop_statement
+// attr	-	any number of attributes
+// range_declaration	-	a declaration of a named variable, whose type is the type of the element of the sequence represented by range_expression, or a reference to that type. Often uses the auto specifier for automatic type deduction
+// range_expression	-	any expression that represents a suitable sequence (either an array or an object for which begin and end member functions or free functions are defined, see below) or a braced-init-list.
+// loop_statement	-	any statement, typically a compound statement, which is the body of the loop
