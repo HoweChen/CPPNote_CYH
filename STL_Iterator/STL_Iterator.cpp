@@ -18,6 +18,9 @@ int main(int argc, char const *argv[]) {
 
   for (auto itr:test) {
     //itr is not map<int, std::string>iterator, should change to i
+    //if the arugment of test is a class, then auto would let itr(will be changed to i)
+    //be the specific class of that argument, so it would show the exact value of that
+    //class i
     cout << itr.first << endl;
     itr.second = "Fuck";
   }
