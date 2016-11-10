@@ -14,8 +14,8 @@ int main(int argc, char const *argv[]) {
   for (auto itr : test) {
     // itr is not map<int, std::string>iterator, should change to i
     // if the arugment of test is a class, then auto would let itr(will be
-    // changed to i) be the specific type of that argument as a member of test, so it would show the exact value, but it's not mutable
-    // of that type i
+    // changed to i) be the specific type of that argument as a member of test, so it would show the exact value of that type i, but it's not mutable
+    //
     //
     // In this case the type of itr is a pair
     cout << itr.first << endl;
