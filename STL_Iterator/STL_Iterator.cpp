@@ -17,20 +17,21 @@ int main(int argc, char const *argv[]) {
   };
 
   for (auto itr:test) {
+    //itr is not map<int, std::string>iterator, should change to i
     cout << itr.first << endl;
     itr.second = "Fuck";
   }
 
-  for (auto itr:test) {
+  for (auto i:test) {
     cout << itr.second << endl;
   }
 
-  for (auto &itr:test) {
+  for (auto &i:test) {
     cout << itr.first << endl;
     itr.second = "Fuck";
   }
 
-  for (auto itr:test) {
+  for (auto i:test) {
     cout << itr.second << endl;
   }
   return 0;
