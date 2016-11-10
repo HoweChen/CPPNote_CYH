@@ -14,10 +14,10 @@ int main(int argc, char const *argv[]) {
   for (auto itr : test) {
     // itr is not map<int, std::string>iterator, should change to i
     // if the arugment of test is a class, then auto would let itr(will be
-    // changed to i)
-    // be the specific class of that argument, so it would show the exact value
-    // of that
-    // class i
+    // changed to i) be the specific class of that argument, so it would show the exact value
+    // of that class i
+    //
+    // In this case the class of itr is a pair
     cout << itr.first << endl;
     itr.second = "Fuck";
   }
@@ -38,6 +38,7 @@ int main(int argc, char const *argv[]) {
   // we define an iterator of a STL
   vector<int> test2(5, 0);
   vector<int>::iterator itr_temp = test2.begin();
+  //in this case itr_temp's class is itr_temp is an vector<int>::iterator
   //  itr_temp = 3;
   // illegal
 
