@@ -59,6 +59,7 @@ int main(int argc, const char *argv[]) {
   // time to code
 
   cout << "Hello World" << endl;
+  cout << "Dev Test" << endl;
   return 0;
 }
 
