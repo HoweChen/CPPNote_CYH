@@ -60,6 +60,7 @@ int main(int argc, const char *argv[]) {
 
   cout << "Hello World" << endl;
   cout << "Dev Test" << endl;
+  cout << "Bug Test" << endl;
   return 0;
 }
 
