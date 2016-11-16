@@ -57,6 +57,8 @@ string replace_substring_to_another_substring(string s, string substr_original,
 int main(int argc, const char *argv[]) {
 
   // time to code
+
+  cout << "Hello World" << endl;
   return 0;
 }
 
